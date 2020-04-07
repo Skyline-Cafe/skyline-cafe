@@ -23,7 +23,7 @@ function login(){
 
     const existingUser = users.find(user => (user.email === email && user.password === password));
     if(existingUser){
-        window.location.href="./index.html";
+        window.location.href="../index.html";
 
     }
     else {
